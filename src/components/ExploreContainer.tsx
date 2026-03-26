@@ -1,6 +1,6 @@
-import './ExploreContainer.css';
-import { useState } from 'react';
 import { IonButton, IonAlert } from '@ionic/react';
+import { useState } from 'react';
+import './ExploreContainer.css';
 
 interface ContainerProps { }
 
@@ -25,7 +25,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
   ];
 
   return (
-    <div>
+    <div id="container">
       <IonButton id="present-alert" onClick={() => setShowAlert(true)}>
         Click Me
       </IonButton>
