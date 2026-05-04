@@ -9,7 +9,7 @@ const Favorites: React.FC =()=>{
                 <IonButtons>
                     <IonMenuButton></IonMenuButton>
                     <IonTitle>
-                        Favorites
+                        may kayu paba??!?!1
                     </IonTitle>
                 </IonButtons>
             </IonToolbar>
